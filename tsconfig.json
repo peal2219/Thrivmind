@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "target": "ES6",
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "about/AboutPage.jsx", "app/RootLayout.jsx", "app/HomePage.jsx", "assessment/AssessmentPage.jsx", "auth/signin/SignInPage.jsx", "auth/signup/SignUpPage.jsx", "components/ui/Accordion.jsx", "components/ui/AlertDialog.jsx", "components/ui/Alert.jsx", "components/ui/AspectRatio.jsx", "components/ui/Avatar.jsx", "components/ui/Badge.jsx", "components/ui/BreadCrumb.jsx", "components/ui/Button.jsx", "components/ui/Calendar.jsx", "components/ui/Card.jsx", "components/ui/Carousel.jsx", "components/ui/ChartComponents.jsx", "components/ui/Checkbox.jsx", "components/ui/Collapsible.jsx", "components/ui/Command.jsx", "components/ui/ContextMenu.jsx", "components/ui/Dialog.jsx", "components/ui/Drawer.jsx", "components/ui/DropdownMenu.jsx", "components/ui/Form.jsx", "components/ui/HoverCard.jsx", "components/ui/InputOtp.jsx", "components/ui/Input.jsx", "components/ui/Label.jsx", "components/ui/Menubar.jsx", "components/ui/NavigationMenu.jsx", "components/ui/Pagination.jsx", "components/ui/Popover.jsx", "components/ui/Progress.jsx", "components/ui/RadioGroup.jsx", "components/ui/Resizable.jsx", "components/ui/ScrollArea.jsx", "components/ui/Select.jsx", "components/ui/Separator.jsx", "components/ui/Sheet.jsx", "components/ui/Sidebar.jsx", "components/ui/Skeleton.jsx", "components/ui/Slider.jsx", "components/ui/Sooner.jsx", "components/ui/Switch.jsx", "components/ui/Table.jsx", "components/ui/Tabs.jsx", "components/ui/Textarea.jsx", "components/ui/Toast.jsx", "components/ui/Toaster.jsx", "components/ui/ToggleGroup.jsx", "components/ui/Tooltip.jsx", "components/ui/useIsMobile.jsx", "components/ui/useToast.jsx", "components/ThemeProvider.jsx", "contact/ContactPage.jsx", "dashboard/DashboardPage.jsx", "layout/Navbar.jsx", "learn-more/expert-backed/ExpertBackedPage.jsx", "learn-more/holistic-remedies/HolisticRemediesPage.jsx", "learn-more/personalized-assessment/PersonalizedAssessmentPage.jsx", "learn-more/secure-private/SecurePrivatePage.jsx", "privacy/PrivacyPage.jsx", "remedies/RemediesPage.jsx", "reviews/ReviewsPage.jsx", "welcome/WelcomePage.jsx", "ThemeProvider.jsx", "ui/components/ui/Accordion.jsx", "ui/components/ui/AlertDialog.jsx", "ui/components/ui/Alert.jsx", "ui/components/ui/AspectRatio.jsx", "ui/components/ui/Avatar.jsx", "ui/components/ui/Badge.jsx", "ui/components/ui/Breadcrumb.jsx", "ui/components/ui/Button.jsx", "ui/components/ui/Calendar.jsx", "ui/components/ui/Card.jsx", "ui/components/ui/Carousel.jsx", "ui/components/ui/Chart.jsx", "ui/components/ui/Checkbox.jsx", "ui/components/ui/Collapsible.jsx", "ui/components/ui/Command.jsx", "ui/components/ui/ContextMenu.jsx", "ui/components/ui/Dialog.jsx", "ui/components/ui/Drawer.jsx", "ui/components/ui/DropdownMenu.jsx", "ui/components/ui/Form.jsx", "ui/components/ui/HoverCard.jsx", "ui/components/ui/InputOtp.jsx", "ui/components/ui/Input.jsx", "ui/components/ui/Label.jsx", "ui/components/ui/Menubar.jsx", "ui/components/ui/NavigationMenu.jsx", "ui/components/ui/Pagination.jsx", "ui/components/ui/Popover.jsx", "ui/components/ui/Progress.jsx", "ui/components/ui/Resizable.jsx", "ui/components/ui/ScrollArea.jsx", "ui/components/ui/Select.jsx", "ui/components/ui/Separator.jsx", "ui/components/ui/Sheet.jsx", "ui/components/ui/Sidebar.jsx", "ui/components/ui/Skeleton.jsx", "ui/components/ui/Slider.jsx", "ui/components/ui/Sonner.jsx", "ui/components/ui/Switch.jsx", "ui/components/ui/Table.jsx", "ui/components/ui/Tabs.jsx", "ui/components/ui/Textarea.jsx", "ui/components/ui/Toast.jsx", "ui/components/ui/Toaster.jsx", "ui/components/ui/ToggleGroup.jsx", "ui/components/ui/Toggle.jsx", "ui/components/ui/Tooltip.jsx", "ui/components/ui/useIsMobile.jsx", "ui/components/ui/use-toast.js", "ui/components/ThemeProvider.jsx"],
+  "exclude": ["node_modules"]
+}
